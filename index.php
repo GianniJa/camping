@@ -28,10 +28,10 @@ include "includes/user.php";
         <br>
         Plek <?= $place['ID'] ?> is <?= $place['surface'] ?> groot.
         <br>
-        vakantieland is the place to visit when you want vakantie, and even if you don't want vakantie.
-        Get vakantie or get rid of children, the place is here at vakantieland. vakantiedepantie.
-    </p>
-    <a href="http://google.com" class="button">Reserveer</a>
+        Reserveer uw campingplaats nu! (Account nodig!)
+
+
+    <a href="reserve.php" class="button">Reserveer</a>
 </div>
 
 <?php endforeach; ?>
