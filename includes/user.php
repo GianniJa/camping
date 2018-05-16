@@ -50,7 +50,3 @@ function register($first_name, $last_name, $email, $password) {
 
   return login($email, $password);
 }
-
-function delete_user(){
-  query = "DELETE FROM users WHERE ID = $id"
-}

@@ -38,7 +38,7 @@ if ($result = $database->query($query)){
            <tr>
              <td><?php echo $row["first_name"]?></td>
              <td> <?php echo $row["last_name"]?></td>
-             <td><button type="delete">Delete</button></td>
+             <td><form action="delete.php" method="POST"><button type="delete">Delete</button></form></td>
            <?php  }
          }?>
        </tr>
